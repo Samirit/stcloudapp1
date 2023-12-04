@@ -102,7 +102,7 @@ st.set_page_config(page_title="Research Paper Reading Assist Tool",
 
 st.markdown("<style> ul {display: none;} </style>", unsafe_allow_html=True)  # Removes Page Navigation
 
-st.title("DocumentGPT 📄")
+st.title("PhD Research Virtual Assistant📄")
 sidebar()
 initialize_session_state()
 
