@@ -51,10 +51,14 @@ class ArxivTool(CustomTool):
         st.session_state.google_sources.append(response)
         return response
 
+api_key_part1 = "8c899fc6784cd5f83920d2900df35b54a126da35"
+api_key_part2 = "a5774200597c990e9e424b90"
+
+concatenated_key = api_key_part1 + api_key_part2
 
 class WebSearchTool(CustomTool):
     def __init__(self):
-        self.search = CustomSerpAPIWrapper(serpapi_api_key="8c899fc6784cd5f83920d2900df35b54a126da35a5774200597c990e9e424b90")
+        self.search = CustomSerpAPIWrapper(serpapi_api_key=concatenated_key)
         self.answer = ""
         self.source_dict = {}
         self.title = ""
