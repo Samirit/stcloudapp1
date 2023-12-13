@@ -1,6 +1,6 @@
-# DocumentGPT
+# PhD Virtual Research Assistant
 
-DocumentGPT is a web application that allows you to chat over your research document using OpenAI's Chat API and perform semantic search using Vector Databases. This tool provides a seamless interface for interacting with your research document, exploring search results, and engaging in a conversation with an AI chatbot.
+PhD Virtual Research Assistant is a web application that allows you to chat over your research document using OpenAI's Chat API and perform semantic search using Vector Databases. This tool provides a seamless interface for interacting with your research document, exploring search results, and engaging in a conversation with an AI chatbot.
 
 ## Features
 
@@ -11,13 +11,10 @@ DocumentGPT is a web application that allows you to chat over your research docu
 - Perform Google/YouTube search within the app and get auto identified search suggestions.
 - Verify sources for all generated results.
 
-## Demo Preview
-  
-https://github.com/aju22/DocumentGPT/assets/72931799/d8b7d386-d379-4439-a260-9db5f8d3da2b
 
 ## How to Use
 
-1. Clone the repository: `git clone https://github.com/your-username/DocumentGPT.git`
+1. Clone the repository: `git clone https://github.com/your-username/PhD Virtual Research Assistant.git`
 2. Install the required dependencies: `pip install -r requirements.txt`
 3. Set up your OpenAI API key and provide it in the web app.
 4. Run the application: `streamlit run main.py`
@@ -35,7 +32,7 @@ https://github.com/aju22/DocumentGPT/assets/72931799/d8b7d386-d379-4439-a260-9db
 
 ## Further Improvements
 
-Here are some areas for further improvement in DocumentGPT:
+Here are some areas for further improvement in PhD Virtual Research Assistant:
 
 - **AI Alignment**: Improve the model behaviour by various techniques in prompt engineering.
 - **Tools**: Addition of more helpul tools for better model responses.
@@ -43,14 +40,14 @@ Here are some areas for further improvement in DocumentGPT:
 ## Streamlit Cloud
 
 You can try out the chatbot by visiting the deployed app on Streamlit Cloud:
-[Deployed App](https://documentgpt.streamlit.app/)
+[Deployed App](https://PhD Virtual Research Assistant.streamlit.app/)
 
 *Note: Unfortunately PDF Display works fine locally, but in the deployed app only works on certain browsers like Safari, Firefox :(*
 
 
 ## Contributing
 
-Contributions to DocumentGPT are welcome! If you have any feedback, suggestions, or bug reports, please create an issue in the GitHub repository. You can also contribute to the project by submitting pull requests with your enhancements.
+Contributions to PhD Virtual Research Assistant are welcome! If you have any feedback, suggestions, or bug reports, please create an issue in the GitHub repository. You can also contribute to the project by submitting pull requests with your enhancements.
 
 ## License
 
@@ -58,4 +55,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 ## Acknowledgements
 
-DocumentGPT is built using Streamlit, OpenAI Chat API, Langchain and various open-source libraries. I would like to acknowledge the contributions of the developers and contributors of these libraries.
+PhD Virtual Research Assistant is built using Streamlit, OpenAI Chat API, Langchain and various open-source libraries. I would like to acknowledge the contributions of the developers and contributors of these libraries.
